@@ -1,0 +1,14 @@
+2025-11-19 22:31:13 | profe1 | registro como teacher
+2025-11-19 22:31:26 | profe1 | login exitoso
+2025-11-19 22:35:18 | est1 | registro como student
+2025-11-19 22:36:00 | profe1 | login fallido
+2025-11-19 22:36:15 | profe1 | login exitoso
+2025-11-19 22:36:55 | profe1 | creó calificación id=1 para est1 en Computadoras con score=96
+2025-11-19 22:37:02 | profe1 | visualizó todas las calificaciones
+2025-11-19 22:37:31 | profe1 | actualizó calificación id=1 score 96 → 94
+2025-11-19 22:37:35 | profe1 | visualizó todas las calificaciones
+2025-11-19 22:37:42 | profe1 | eliminó calificación id=1 de est1 en Computadoras
+2025-11-19 22:37:45 | profe1 | visualizó todas las calificaciones
+2025-11-19 22:38:07 | est1 | login fallido
+2025-11-19 22:38:20 | est1 | login exitoso
+2025-11-19 22:38:26 | est1 | visualizó sus propias calificaciones
