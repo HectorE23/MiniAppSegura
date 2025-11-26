@@ -24,7 +24,6 @@ def user_exists(username: str) -> bool:
 
 
 def register_user(username: str, password: str, role: str) -> tuple[bool, str]:
-    """Registra un usuario nuevo. Devuelve (ok, mensaje)."""
     ensure_files()
 
     # ⚠️ VALIDACIÓN DE SEGURIDAD (PRIMERO)
@@ -57,7 +56,6 @@ def register_user(username: str, password: str, role: str) -> tuple[bool, str]:
 
 
 def login_user(username: str, password: str):
-    """Intento de login. Si éxito, devuelve dict; si no, None."""
     ensure_files()
 
     # Bloquear intentos raros antes de intentar login

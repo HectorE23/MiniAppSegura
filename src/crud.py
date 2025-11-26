@@ -3,7 +3,6 @@ from utils import GRADES_FILE, log_action, ensure_files, is_safe_input
 
 
 def _load_grades():
-    """Carga todas las calificaciones del archivo como lista de dicts."""
     ensure_files()
     grades = []
     with open(GRADES_FILE, "r", encoding="utf-8") as f:
@@ -30,7 +29,6 @@ def _load_grades():
 
 
 def _save_grades(grades):
-    """Guarda la lista de calificaciones en el archivo."""
     ensure_files()
     with open(GRADES_FILE, "w", encoding="utf-8") as f:
         for g in grades:

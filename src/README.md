@@ -43,3 +43,23 @@ MiniAppSegura/
 │   └── informe.pdf             # Informe final
 │
 └── README.md
+
+## Enlace a Github
+https://github.com/HectorE23/MiniAppSegura
+
+## 🎥 Video de Presentación
+
+🔗 **https://youtu.be/BpBmfNQttLE**  
+    (Formato: Unlisted)
+
+En el video se demuestra:
+- Registro e inicio de sesión
+- Hashing de contraseñas con SHA-256
+- Control de acceso por roles (teacher / student)
+- CRUD completo de calificaciones
+- Descarga y lectura de archivos .txt (users, grades)
+- Logging de auditoría (log.txt)
+- Intentos de inyección fallidos
+- Validación de puntuación (0–100)
+- Manejo de errores seguro
+- Ejecución del comando `pip-audit`

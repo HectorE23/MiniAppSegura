@@ -18,12 +18,10 @@ def ensure_files():
 
 
 def hash_password(password: str) -> str:
-    """Devuelve el hash SHA-256 de una contraseña."""
     return hashlib.sha256(password.encode("utf-8")).hexdigest()
 
 
 def log_action(user: str, action: str):
-    """Registra acciones (sin contraseñas ni hashes)."""
     ensure_files()
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(LOG_FILE, "a", encoding="utf-8") as f:
@@ -31,11 +29,6 @@ def log_action(user: str, action: str):
 
 
 def is_safe_input(text: str) -> bool:
-    """
-    Valida que la entrada NO contenga patrones típicos de inyección
-    ni caracteres que puedan corromper el archivo.
-    """
-    # Puedes ajustar esta lista si el profe quiere más ejemplos
     dangerous = [
         ";", "'", '"', "--", "|",
         " or 1=1", " drop ", " delete ", " insert ", " update ",

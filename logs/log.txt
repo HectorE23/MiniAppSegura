@@ -12,3 +12,29 @@
 2025-11-19 22:38:07 | est1 | login fallido
 2025-11-19 22:38:20 | est1 | login exitoso
 2025-11-19 22:38:26 | est1 | visualizó sus propias calificaciones
+2025-11-24 23:32:44 | teacher1 | login fallido
+2025-11-24 23:33:04 | teacher1 | login fallido
+2025-11-24 23:34:19 | Buenas | login fallido
+2025-11-24 23:34:59 | Est1 | registro como student
+2025-11-24 23:35:30 | Est1 | login exitoso
+2025-11-24 23:41:44 | ' OR 1=1 -- | login bloqueado (posible inyección)
+2025-11-25 15:03:34 | Profesor1 | registro como teacher
+2025-11-25 15:03:54 | Estudiante1 | registro como student
+2025-11-25 15:04:11 | Profesor1 | login exitoso
+2025-11-25 15:04:43 | Profesor1 | creó calificación id=1 para Estudiante1 en Computadora con score=95
+2025-11-25 15:04:49 | Profesor1 | visualizó todas las calificaciones
+2025-11-25 15:05:12 | Profesor1 | creó calificación id=2 para Estudiante1 en Matematica con score=98
+2025-11-25 15:05:13 | Profesor1 | visualizó todas las calificaciones
+2025-11-25 15:05:33 | Profesor1 | actualizó calificación id=1 score 95 → 99
+2025-11-25 15:05:35 | Profesor1 | visualizó todas las calificaciones
+2025-11-25 15:05:41 | Profesor1 | eliminó calificación id=2 de Estudiante1 en Matematica
+2025-11-25 15:08:02 | Estudiante1 | login exitoso
+2025-11-25 15:08:07 | Estudiante1 | visualizó sus propias calificaciones
+2025-11-25 15:12:07 | Estudiante1 | login exitoso
+2025-11-25 15:12:13 | Estudiante1 | visualizó sus propias calificaciones
+2025-11-25 15:12:24 | Profesor1 | login exitoso
+2025-11-25 15:12:36 | Estudiante1 | login exitoso
+2025-11-25 15:12:42 | Estudiante1 | visualizó sus propias calificaciones
+2025-11-25 15:13:19 | 3 | login fallido
+2025-11-25 15:13:47 | Estudiante1 | login exitoso
+2025-11-25 15:13:52 | Estudiante1 | visualizó sus propias calificaciones
